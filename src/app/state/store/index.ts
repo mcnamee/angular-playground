@@ -1,7 +1,7 @@
 export interface State {
-  users: array;
+  users: any[];
 };
 
 export const intitialState: State = {
-  users: [],
+  users: Array(),
 };
